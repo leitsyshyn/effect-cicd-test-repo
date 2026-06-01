@@ -1,0 +1,12 @@
+{
+  "name": "effect-cicd-test-repo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build OK' && tsc --noEmit",
+    "test": "echo 'Tests passed!' && bun test"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
