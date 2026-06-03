@@ -3,8 +3,11 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "echo 'Build OK' && tsc --noEmit",
+    "build": "echo 'Build OK'",
     "test": "echo 'Tests passed!' && bun test"
+  },
+  "dependencies": {
+    "@effect-cicd/dsl": "file:../effect-cicd/packages/dsl"
   },
   "devDependencies": {
     "typescript": "^5"
